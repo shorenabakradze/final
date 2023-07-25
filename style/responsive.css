@@ -28,18 +28,18 @@
     align-items: center;
     gap: 25px;
 }
-.nav-bar {
+.header-container {
     display: none;
 }
-.burger {
-   display: block;
+.navigation {
+    display: none;
 }
-.header-nav {
-    flex-direction: column;
+.mobile-container {
+    display: block;
 }
-.nav-bar ul {
-    flex-direction: column;
-}
+.header-a {
+    display: none;
+};
 .copyright p  {
     font-size: 10px;
 }
@@ -47,10 +47,7 @@
 
 
 @media (max-width: 481px) {
-   
-    .nav-bar {
-        display: none;
-    }
+
     .form {
         display: none;
     }
