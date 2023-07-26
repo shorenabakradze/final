@@ -177,28 +177,29 @@ input[type=submit] {
     left: 0;
 }
 .video-textbox {
+    display: block;
     background-image: url(/background-image/blurred.jpg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 450px;
+    max-width: 550px;
     position: absolute;
     z-index: 10;
-    top: 100px;
-    left: 20px;
-    
+    top:150px;
+    left:30px;
+   
+
 }
 .video-textbox h3 {
     font-size: 38px;
     text-align:start;
-    margin: 25px;
+   padding: 15px;
     color:#A60F37;
 }
 .video-textbox p {
     font-size: 24px;
     text-align: justify;
-    margin: 25px;
+    padding: 15px;
     color:#404040;
 }
 
@@ -217,22 +218,23 @@ input[type=submit] {
     font-family: 'Castoro Titling', cursive;
     font-size: 20px;
     cursor: pointer;
-    width: 200px;
-   
+    width: 150px;
 }
 /* index */
 /* about.html */
 .about-container {
     max-width: 1440px;
     width: 90%;
-    margin: 0 auto;
-    background: #F2E6CE;
+    margin: 30px auto;
+    background-color: #F2F2F2;
+    border: #6A7371 3px hidden ;
+    
    
 }
 .flex-about {
     display: flex;
-    column-gap: 50px;
-     align-items: center;
+    column-gap: 20px;
+    align-items: center;
 }
 
 .left-wrapper {
@@ -240,26 +242,36 @@ input[type=submit] {
   }
 .left-wrapper img{
     width: 600px;
-    object-fit:fill;
+    object-fit: fill;
  }
  .right-wrapper {
-    width: 600px;
+    width: 100%;
+ }
+ .right-wrapper h4 {
+    font-size: 38px;
+    color: #262626;
+    font-weight: bolder;
+    text-transform: uppercase;
  }
 .right-wrapper p {
     text-align: justify;
     line-height: 31px;
     font-size: calc(2vw);
-    color: #6A7371;
+    color: #618C03;
     padding: 10px;
+    max-width: 600px;
     }
 
- 
+.right-wrapper img {
+    width: 40px;
+    height: 40px;
+    }
 
 .history {
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
-    border: #A60F37 2px solid ;
+    border: #618C03 2px solid ;
 }
 .left-history {
     max-width: 1440px;
@@ -268,13 +280,19 @@ input[type=submit] {
     width: 100%;
 }
 .right-history {
-background-color: #A60F37;
+    background-color: #262626;
+    max-width: 1440px;
+    width: 100%;
+    
 }
 
    .right-history  p {
     color: #CEC7B5;
-    font-weight: bold;
-    font-size: calc(3vw);
+    font-size: calc(2vw);
+    text-align: center;
+    padding: 30px 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
    }
 
 .gallery {
@@ -282,10 +300,9 @@ background-color: #A60F37;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 10px;
-    margin-bottom: 100px;
+    gap: 5px;
+    margin: 100px 0;
 }
-
 
 .image-container {
     margin: 0 auto; 
@@ -293,9 +310,8 @@ background-color: #A60F37;
     box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); 
     margin-bottom: 20px;
     transition-duration: 1s;
-    max-width: 420px;;
+    max-width: 500px;;
     height: auto;
-  
  }
 
  .image-container:hover {
@@ -317,7 +333,70 @@ background-color: #A60F37;
     text-align: center;
  }
 
+/* sale item */
+ .gallery2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 50px 0;
+}
 
+ .image-container2 {
+    margin: 0 auto; 
+    width: 95%;
+    margin-bottom: 10px;
+    max-width: 420px;;
+    height: auto;
+ }
+ 
+ .child2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .child2 h6 {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+     width: 200px;
+     padding: 5px;
+ }
+ .child2 p {
+    font-size: 14px;
+    font-family: 'Gruppo', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+ }
+ .child2 span  {
+    font-size: 18px;
+    font-family: 'Gruppo', sans-serif;
+    font-weight: 400;
+    text-align: center;
+ }
+
+ .child2 s {
+  font-style: italic;
+  color: red;
+  font-weight: bolder;
+  padding-top: 20px;
+ }
+ 
+
+.gift-card {
+    display: flex;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.gift-card span {
+    border: #6A7371 4px groove;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 10px;
+}
 
 
  /* chat icon */
