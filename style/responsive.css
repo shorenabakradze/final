@@ -32,6 +32,9 @@
     margin-right: 5px;
     width: 80px;
 }
+.right-history  p{
+    font-size: 28px;
+}
 }
 
 
@@ -86,13 +89,17 @@
     width: 100%;
     text-align: center;
 }
-.right-wrapper img  {
-  display: none;
-}
 .left-wrapper img{
   height: 450px;
 
  }
+ .right-history  p{
+    font-size: 24px;
+}
+.logo-f {
+    max-width: 105px;
+    height: 105px;
+}
 }
 
 @media (max-width: 481px) {
@@ -103,4 +110,23 @@
     .video-textbox { 
         display: none;
     }
+    .gift-card span {
+        padding: 6px 0;
+    }
+    .gift-card {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+    .title-p{
+        text-align:center;
+        padding-left: 0;
+}
+.right-history  p{
+    font-size: 18px;
+}
+.logo-f {
+    max-width: 90px;
+    height: 90px;
+}
 }

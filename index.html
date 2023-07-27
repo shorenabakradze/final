@@ -52,11 +52,16 @@
               ></i
             ></a>
             <a href="https://maisonlouismarie.com/account/login">
-            <i class="fa-regular fa-user fa-beat" style="color: #000000"></i>
-          </a>
+              <i class="fa-regular fa-user fa-beat" style="color: #000000"></i>
+            </a>
           </div>
           <div class="forms-box">
             <h2>Maison Louis Marie</h2>
+          </div>
+          <div class="form1">
+            <form action="/action_page.php">
+              <input type="submit" value="sing in" />
+            </form>
           </div>
           <div class="form">
             <form action="/action_page.php">
@@ -65,18 +70,13 @@
               <input type="submit" value="sing in" />
             </form>
           </div>
-          <div class="form1">
-            <form action="/action_page.php">
-              <input type="submit" value="sing in" />
-            </form>
-          </div>
         </div>
       </div>
+
       <div class="header-nav">
         <a class="header-a" href="index.html"
           ><img src="image/head-logo.jpg" alt="logo"
         /></a>
-
         <div class="mobile-container">
           <div class="topnav">
             <a href="index.html" class="active">Maison Louis Marie</a>
@@ -100,18 +100,8 @@
           </ul>
         </nav>
       </div>
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-      </script>
+      <script src="script.js"></script>
     </header>
-
     <section id="home">
       <div class="video-box">
         <video controls autoplay>
@@ -120,12 +110,13 @@
         <div class="video-textbox">
           <h3>Capri is calling</h3>
           <p>
-            No. 13 Nouvelle Vague is here. This fresh scent makes you feel like
-            you are sunbathing on the Amalfi Coast. Key notes are Muguet, Tuscan
-            Fig, Tonka.
+            <span>No. 13 Nouvelle Vague is here.</span> This fresh scent makes
+            you feel like you are sunbathing on the Amalfi Coast. Key notes are
+            Muguet, Tuscan Fig, Tonka.
           </p>
           <button class="black-box-video">
             <a
+              class="video-box-shop"
               href="https://maisonlouismarie.com/collections/all?family=Fresh&fragrance=No.13+Nouvelle+Vague&sort_by=manual"
               target="_blank"
               >shop new</a
@@ -134,9 +125,9 @@
         </div>
       </div>
     </section>
-
     <section id="Perfumes">
       <hr />
+      <h2 class="title-p">Perfumes</h2>
       <div class="gallery">
         <div class="image-container">
           <img src="image/N02.webp" alt="image" />
@@ -238,9 +229,9 @@
         </div>
       </div>
     </section>
-
     <section id="sale">
       <hr />
+      <h6 class="title-p">sale</h6>
       <div class="gallery2">
         <div class="image-container2">
           <img src="image2/Card-GiftCarddesign_800x.pdf" alt="image" />
@@ -314,15 +305,22 @@
         </div>
       </div>
     </section>
-
     <section id="Abou-Us">
-      <hr />
+     <hr>
       <div class="about-container flex-about">
         <div class="left-wrapper">
           <img src="image/1.jpg" alt="image" />
         </div>
         <div class="right-wrapper">
+          <div class="right-wrapper-1">
           <h4>200 years later</h4>
+          <a href="https://www.facebook.com/MaisonLouisMarie/" target="_blank"
+            ><img src="image/facebook.svg" alt="fb-icon"
+          /></a>
+          <a href="https://www.facebook.com/MaisonLouisMarie/" target="_blank"
+            ><img src="image/facebook-messenger.svg" alt="fb-icon"
+          /></a>
+        </div>
           <p>
             Marie du Petit Thouars grew up in Belgium, playing in her
             grandfather’s nursery while making candles and experimenting with
@@ -334,12 +332,7 @@
             Marie believes in making every effort to preserve the unique terroir
             of each fragrance element as it is derived from nature.
           </p>
-          <a href="https://www.facebook.com/MaisonLouisMarie/" target="_blank"
-            ><img src="image/facebook.svg" alt="fb-icon"
-          /></a>
-          <a href="https://www.facebook.com/MaisonLouisMarie/" target="_blank"
-            ><img src="image/facebook-messenger.svg" alt="fb-icon"
-          /></a>
+          
         </div>
       </div>
       <div class="history">
@@ -365,19 +358,17 @@
         </div>
       </div>
     </section>
-
     <footer>
       <div class="chat-icon">
         <i class="fa-brands fa-rocketchat fa-fade" style="color: #cec7b5"></i>
       </div>
       <hr />
       <div class="flex-footer">
-      <div class="footer-logo">
-        <a class="logo-f" href="index.html"
-          ><img src="image/head-logo.jpg" alt="logo"
-        /></a>
-      </div>
-      
+        <div class="footer-logo">
+          <a class="logo-f" href="index.html"
+            ><img src="image/head-logo.jpg" alt="logo"
+          /></a>
+        </div>
         <div class="footer-ul">
           <ul>
             <li>
