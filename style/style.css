@@ -13,7 +13,7 @@
     justify-content: right;
     align-items: center;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
   }
 .header-top-i { 
     display: flex;
@@ -48,7 +48,7 @@ input[type=submit] {
     position: relative;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 100%;
 } 
 .header-a img{
      width: 50x;
@@ -127,15 +127,13 @@ input[type=submit] {
     justify-content: space-between;
     align-items: center;
 }
-.navigation> ul > li > a {
-    background-color: #fff;
-}
+
 .navigation> ul > li > a:hover {
     background: #CEC7B5;
     color:#383838;
 }
 .navigation .active {
-    background:#fff;
+    background-color:#555;
     color: #618C03;
 }
 
@@ -202,7 +200,7 @@ input[type=submit] {
     font-family: 'Castoro Titling', cursive;
     font-size: 18px;
     cursor: pointer;
-    color: #262626;
+    color: #618C03;
     font-weight: bolder;
     text-transform: uppercase;
     -webkit-animation-name: shopnew;
