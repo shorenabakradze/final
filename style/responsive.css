@@ -1,18 +1,17 @@
 
 @media (max-width: 1024px) {
-    .footer-ul  {
-        flex-direction: column;
-        align-items: center;
+.footer-ul  {
+    flex-direction: column;
+    align-items: center;
     
     }
-   .flex-about {
+.flex-about {
     flex-direction: column-reverse;
-    
    }
-   .right-wrapper{
+.right-wrapper{
      width: 100%;
    }
-   .left-wrapper img {
+.left-wrapper img {
     width: 100%;
     height: 500px;
 }
@@ -35,6 +34,9 @@
 .right-history  p{
     font-size: 28px;
 }
+.navigation a {
+    width:  90px;
+}
 }
 
 
@@ -47,10 +49,13 @@
 .video-textbox {
     display: none;
 }
-   
-.header-container {
+.forms-box {
     display: none;
 }
+.header-top {
+    display: none;
+}
+
 .navigation {
     display: none;
 }
@@ -103,6 +108,8 @@
 .title-p{
     text-align:center;
     padding-left: 0;
+   font-size: 28px;
+   text-shadow:#383838 1px 1px;
 }
 }
 
