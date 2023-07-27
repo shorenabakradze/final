@@ -13,9 +13,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #BFB4AA;
   }
-
 .header-top-i { 
     display: flex;
     justify-content: center;
@@ -24,41 +22,40 @@
     height: 50px;
     margin-right: 15px;
 }
-
 .forms-box {
    max-width: 450px;
 }
-
 .forms-box h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #4A4849;
     font-size: 23px;
-    text-shadow: 5px 2px #E2DBCB;
+    text-shadow: 1px 1px #E2DBCB;
     font-weight: bold;
     font-family: 'Castoro Titling', cursive;
     text-align: center;
     max-width: 350px;
     height: 50px;
 }
-
 input[type=submit] {
     width: 100px;
-    background-color:#6A7371;
     color: #CEC7B5;
     font-size: 18px;
-    border-radius: 10px 0;
+    background-image: linear-gradient(#618C03, #262626);
 }
-/* header */
-/* navigation */
-
+.form1 input[type=submit] {
+    display: none;
+}
 .header-nav {
     position: relative;
     top: 0;
     left: 0;
 } 
-
+.header-nav img {
+    border: #383838 1px solid;
+     border-radius: 30px;
+}
 .mobile-container {
     max-width: 766px;
     margin: 0 auto;
@@ -68,44 +65,42 @@ input[type=submit] {
     border-radius: 10px;
     display: none;
   }
-
 .topnav {
     overflow: hidden;
-    background-color:#6A7371;
     position: relative;
   }
-  
   .topnav #myLinks {
+    background-image: url(/background-image/bg-tuberose_1000x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: none;
   }
-  
   .topnav a {
-    color: white;
+    color:#262626;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
   }
-  
   .topnav a.icon {
-    background: black;
+    background:#618C03;
+    opacity: 0.5;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
   }
-  
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #6A7371;
     color: #ffffff;
+    color: #618C03;
   }
-  
   .active {
-    background-color: #A60F37;
-    color: white;
+    background-color: #6A7371;
+    color:#618C03;
   }
-   
-.header-nav img {
+  .header-nav img {
     max-width: 60px;
     width: 100%;
     height: 60px;
@@ -117,41 +112,35 @@ input[type=submit] {
     right: 0;
     max-width: 500px;
     padding-bottom: 20px;
-    margin: 0 auto;
-  
+    margin: 0 auto;  
 }
 .navigation a {
-    color: #4A4849;
+    color: #888;
     display: block;
     height: 50px;
     max-width: 650px;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     font-family: 'Castoro Titling', cursive;
 }
-
 .navigation > ul {
     display: flex;
-     max-width: 450px;
+    max-width: 550px;
     margin: 0 auto;
-   
 }
-
 .navigation> ul > li > a {
     padding: 10px;
-    background-color: #CEC7B5;
+    background-color: #fff;
     height: 60px;
 }
-
 .navigation> ul > li > a:hover {
     background: #CEC7B5;
-    color: #F3F1E4;
+    color:#383838;
 }
-
 .navigation .active {
-    background: #A60F37;
-    color: #F2E6CE;
+    background:#fff;
+    color: #618C03;
 }
 
 .navigation > ul > li {
@@ -159,10 +148,7 @@ input[type=submit] {
     width: 90%;
     text-align: center;
 }
-/* navigarion */
 
-/* video section */
-/* index.html */
 .video-box {
     width: 100%;
 }
@@ -187,8 +173,6 @@ input[type=submit] {
     z-index: 10;
     top:150px;
     left:30px;
-   
-
 }
 .video-textbox h3 {
     font-size: 38px;
@@ -220,23 +204,18 @@ input[type=submit] {
     cursor: pointer;
     width: 150px;
 }
-/* index */
-/* about.html */
 .about-container {
     max-width: 1440px;
     width: 90%;
     margin: 30px auto;
     background-color: #F2F2F2;
     border: #6A7371 3px hidden ;
-    
-   
 }
 .flex-about {
     display: flex;
     column-gap: 20px;
     align-items: center;
 }
-
 .left-wrapper {
     width: 100%;
   }
@@ -282,17 +261,15 @@ input[type=submit] {
 .right-history {
     background-color: #262626;
     max-width: 1440px;
-    width: 100%;
-    
+    width: 100%; 
 }
-
    .right-history  p {
     color: #CEC7B5;
     font-size: calc(2vw);
     text-align: center;
     padding: 30px 40px;
     font-family: 'Inter', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
    }
 
 .gallery {
@@ -407,7 +384,7 @@ input[type=submit] {
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color: #A60F37;
+    background-image: linear-gradient(#618C03, #262626);
     z-index: 5;
 }
 .chat-icon i {
@@ -431,6 +408,10 @@ input[type=submit] {
 }
 
   .flex-footer {
+    background-image: url(/background-image/bg-tuberose_1000x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
    flex-direction: column;
     align-items: center;
