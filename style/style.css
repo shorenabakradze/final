@@ -71,7 +71,7 @@ input[type=submit] {
     position: relative;
   }
   .topnav #myLinks {
-    background-image: url(/background-image/bg-tuberose_1000x.webp);
+    background-image: url('../background-image/bg-tuberose_1000x.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -469,7 +469,7 @@ input[type=submit] {
 }
 
   .flex-footer {
-    background-image: url(/background-image/bg-tuberose_1000x.webp);
+    background-image: url('../background-image/bg-tuberose_1000x.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
